@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect x="12" y="12" width="136" height="136" rx="28" fill="#0f172a" filter="url(#shadow)"/>
+  <path d="M40 46h80v24H40z" fill="url(#grad)"/>
+  <path d="M40 90h80v24H40z" fill="#111827"/>
+  <text x="50%" y="58" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#f8fafc" font-weight="700">DEL</text>
+  <text x="50%" y="114" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#cbd5e1" letter-spacing="0.08em">LEAGUE CUP</text>
+</svg>

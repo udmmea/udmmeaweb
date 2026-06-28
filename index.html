@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>eSports Tournament</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="app-container">
+  <div class="top-gradient"></div>
+  <div class="content-shell">
+    <div class="hero-card hero-header">
+      <div class="hero-title-row">
+        <img class="hero-logo" src="photo_2026-06-12_18-29-45.jpg" alt="Dental Efootball League Cup logo">
+        <div>
+          <h1>Dental Efootball League Cup</h1>
+          <p class="hero-subtitle">Live match schedule and standings overview</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="table.html">Standings</a>
+    </div>
+
+    <div class="card">
+      <h2 id="weekHeading">Week 1 — Match Schedule</h2>
+      <div class="week-controls">
+        <div>
+          <button id="prevWeekBtn" onclick="prevWeek()">◀ Prev</button>
+          <button id="nextWeekBtn" onclick="nextWeek()">Next ▶</button>
+        </div>
+        <div id="weekLabel">Week 1</div>
+      </div>
+      <div id="weekSchedule"></div>
+    </div>
+
+    <div class="card">
+      <h2>Standings Preview</h2>
+      <input id="teamSearch" placeholder="Search team..." oninput="applyTeamSearch()" class="search-input">
+      <div id="top5"></div>
+    </div>
+
+    <div class="card">
+      <h2>Player Slots</h2>
+      <div id="playerSlots" class="player-list"></div>
+    </div>
+  </div>
+</div>
+<script src="data.js"></script>
+</body>
+</html>
